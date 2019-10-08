@@ -69,4 +69,40 @@ for _ in stride(from: p1, to: p2, by: -1){
     print("Singh")
 }
 
+var x0 = Int()
+print(x0)
+
+var x00 : Int?
+print(x00)
+
+var x90 : String?
+print(x90)
+
+var x9 = String()
+print(x9)
+
+var s = String()
+s = "kuldeepSingh"
+print(s.count)
+print(s.hasPrefix("kul"))
+print(s.hasSuffix("kul"))
+print(s.lowercased())
+print(s.uppercased())
+print(s.capitalized)
+print(s.last)
+print(s.first)
+
+
+let s1 = "aaabbbbccabb"
+print(s1.replacingOccurrences(of: "a", with: "B"))
+for i1 in s1
+{
+    var count = 0
+    if(i1 = s1.split(separator: i1, maxSplits: <#T##Int#>, omittingEmptySubsequences: <#T##Bool#>))
+    {
+        
+    }
+    
+}
+
 
